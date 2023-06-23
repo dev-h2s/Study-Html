@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>display</title>
+</head>
+<body>
+	<!-- 한 열을 다 차지하는 블록요소 -->
+	<h1 style = "background: yellow">블록 요소</h1>
+	<div style = "text-align: center;">
+	<!-- 작성한 공간만 차지하는 인라인 요소 -->
+	<div style = "display:inline; margin-top: 30px"> div 태그 </div>입니다.
+	<!-- 영역크기를 설정해도 인라인 요소라서 텍스트를 작성한 공간만 영역 차지 -->
+	<strong style= "background: red; width: 300xp; height: 300px"> 인라인 요소 </strong>
+	<!-- 인라인 요소인 span 태그에 display:inline-block을 추가해줌으로 영역 생성  -->
+	<span style = " display: inline-block; width: 300px; height: 300px">span 태그 </span>
+	</div>
+	<!-- 인라인 블록요소 끼리 영역을 침범하지 않는다 -->
+	<button style = "width: 300px; height: 300px; margin-top: 30px">인라인-블록 요소 </button>
+</body>
+</html>

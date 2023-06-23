@@ -1,0 +1,111 @@
+<!-- 직접 한거 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="margin: 0 500px">
+	<div style="text-align: center;" href="https://www.naver.com">
+		<img src="naver로고.jpg" style="width: 200px;">
+	</div>
+
+	<p>
+	<div>아이디</div>
+	<input type="text" name="userId" required autocomplete="none">
+		 <span class="step_url">@naver.com</span>
+		 
+
+	</p>
+
+	<p>
+	<div>
+		<img
+			src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-68-256.png"
+			style="width: 10px;"> 비밀번호
+	</div>
+
+	<div style="text-align: right;"></div>
+	<input type="password" name="userPassword" required>
+	</p>
+
+	<p>
+	<div>
+		<img
+			src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-68-256.png"
+			style="width: 10px;"> 비밀번호 재확인
+	</div>
+	<input type="password" name="userPassword" required>
+	</p>
+
+	<p>
+	<div>이름</div> 
+	<input type="text" name="name" required autocomplete="none">
+	</p> 
+	생년월일
+	<div style="display: flex;">
+		<p>
+			<input type="text" placeholder="년(4자)" name="년" required
+				autocomplete="none"> 
+		</p>
+
+		<select style="width: 80px;" name="w">
+			<option value="menth">월</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		</p>
+		<p>
+			<input type="text" placeholder="일" name="일" required
+				autocomplete="none">
+		</p>
+	</div>
+	<p>
+		성별 <select name="gender">
+			<option value="gender">성별</option>
+			<option value="m">남자</option>
+			<option value="w">여자</option>
+			<option value="no">선택안함</option>
+		</select>
+	</p>
+
+	<p>
+	<div>본인 확인 이메일</div>
+	<input type="email" placeholder="선택입력" name="email" required>
+	</p>
+	<p>
+	<div>휴대전화</div>
+	<select name="휴대전화">
+		<option value="k">대한민국+82</option>
+		<option value="k">가나 +233</option>
+		<option value="kk">가봉 +241</option>
+		<option value="kkk">가이아나 +592</option>
+	</select>
+	</p>
+	<div>
+		<p>
+			<input type="text" placeholder="전화번호 입력" name="phone" required
+				autocomplete="none"> <input type="submit" value="인증번호 받기">
+		</p>
+		<p>
+			<input type="text" placeholder="인증번호를 입력하세요" name="phone pass"
+				required autocomplete="none">
+		</p>
+	</div>
+	<p>
+		<input type="submit" value="가입 완료">
+	</p>
+	</div>
+</body>
+</html>
